@@ -7,6 +7,8 @@ app.set('view engine', 'jade');
 var fs=require('fs');
 var Glob= require('glob').Glob;
 
+
+//Hola
 var routes= { 'README': 'README.md'};
 
 var g = new Glob("curso/texto/*.md", {
